@@ -644,7 +644,7 @@ int av_channel_layout_from_mask(AVChannelLayout *channel_layout, uint64_t mask);
  *
  * @param channel_layout input channel layout
  * @param str string describing the channel layout
- * @return 0 channel layout was detected, AVERROR_INVALIDATATA otherwise
+ * @return 0 channel layout was detected, AVERROR_INVALIDDATA otherwise
  */
 int av_channel_layout_from_string(AVChannelLayout *channel_layout,
                                   const char *str);
